@@ -1,0 +1,57 @@
+Proposed Files and Their Structure
+power_analysis.py
+Simulates Power Analysis attacks (SPA & DPA) with:
+
+Visualizing power consumption trends for different keys.
+Correlation analysis between Hamming weight and power consumption.
+timing_attack.py
+Simulates Timing Attacks with:
+
+Histogram of timing data for correct and incorrect keys.
+Average timing comparison for different operations.
+electromagnetic_analysis.py
+Simulates attacks using electromagnetic emissions:
+
+Plots showing variations in EM signals during encryption.
+Fourier analysis to identify signal patterns.
+acoustic_analysis.py
+Simulates attacks based on acoustic emissions:
+
+Frequency spectrum analysis of device noise during operations.
+Identifying distinct acoustic patterns corresponding to operations.
+Plot Ideas
+For each file, the plots will:
+
+Visualize measurable variations due to side-channel leaks.
+Include clear legends, titles, and labels for easy interpretation.
+Power Analysis
+Correlation plot of power consumption vs. operations.
+Bar plot for Hamming weight vs. power consumption.
+Timing Attack
+Histogram of timing distributions for correct and incorrect keys.
+Line plot comparing timing data for different operations.
+Electromagnetic Analysis
+Time-domain plot of EM signal variations during operations.
+Frequency-domain (Fourier Transform) plot to detect patterns.
+Acoustic Analysis
+Spectrogram of acoustic emissions during encryption.
+Frequency analysis highlighting distinct peaks.
+Mathematical Calculations
+To make the analysis quantitative:
+
+Power Analysis:
+
+Correlation coefficient between power consumption and Hamming weight.
+Variance and standard deviation of power measurements.
+Timing Attack:
+
+Statistical t-test to determine if timing differences are significant.
+Average and standard deviation of timing data for different keys.
+Electromagnetic Analysis:
+
+Fourier Transform to identify dominant frequencies in EM signals.
+Signal-to-noise ratio (SNR) calculation.
+Acoustic Analysis:
+
+Spectral centroid to find the "center of mass" of acoustic frequencies.
+Cross-correlation to match acoustic patterns with specific operations.
